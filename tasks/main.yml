@@ -1,5 +1,5 @@
 ---
-- name: add ppa
+- name: add ansible ppa
   apt_repository:
     repo: 'ppa:ansible/ansible'
     codename: trusty
